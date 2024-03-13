@@ -2,8 +2,8 @@ package gestorArchivos
 
 import (
 	"bufio"
-	"comparativosConcurrencia/calculadora"
 	"fmt"
+	"github.com/jcgr5/PrimerParcialGo/calculadora"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -55,9 +55,6 @@ func CargarArchivo(nombreArchivo string) []calculadora.Operacion {
 
 	return coleccionOperaciones
 }
-
-
-
 
 func ListadoElementosCarpeta(dirPath string) ([]string, error) {
 	files, err := ioutil.ReadDir(dirPath)
