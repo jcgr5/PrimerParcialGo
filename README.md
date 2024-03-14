@@ -1,10 +1,19 @@
 # PrimerParcialGo
 
-Este proyecto contiene 4 procesos distintos para procesar datos, para llamar estas funciones realizar lo siguiente:
+Este proyecto contiene 4 procesos distintos para procesar datos, para llamar estas funciones realizar lo siguiente:  
 
-1-ubicarse en el archivo main.go  
+1-Descargar la carpeta "InstanciasConcurrencia", y en la estructura de archivos del proyecto ubicarla al mismo nivel que el main.go  
+
+2-Ubicarse en el archivo main.go  
+
+3-Realizar los siguientes imports:
+
+github.com/jcgr5/PrimerParcialGo/dataRace  
+github.com/jcgr5/PrimerParcialGo/coleccion  
+github.com/jcgr5/PrimerParcialGo/semaforos  
+github.com/jcgr5/PrimerParcialGo/unHilo  
   
-2-escribir la siguiente linea de codigo (eliminando los // del inicio de cada linea) dependiendo del proceso que desee utilizar:  
+4-Escribir una de las siguientes lineas de codigo (eliminando los // del inicio de cada linea) dependiendo del proceso que desee utilizar:  
   
 -para utilizar metodo de multi hilo con semaforos: //semaforos.Semaf("./InstanciasConcurrencia/01_5.input")  
 -para utilizar metodo de multi hilo con coleccion reservada: //coleccion.Col("./InstanciasConcurrencia/01_5.input")  
