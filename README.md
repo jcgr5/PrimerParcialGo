@@ -20,7 +20,7 @@ github.com/jcgr5/PrimerParcialGo/unHilo
 -para utilizar metodo de multi hilo con una variable: //dataRace.Race("./InstanciasConcurrencia/01_5.input")  
 -para utilizar metodo de un solo hilo: //unHilo.St("./InstanciasConcurrencia/01_5.input")  
 
-3-Para cambiar las instancias de concurrencia, modifique 01_5.input por una de las siguientes opciones:  
+5-Para cambiar las instancias de concurrencia, modifique 01_5.input por una de las siguientes opciones:  
   
 01_5.input  
 02_20.input  
