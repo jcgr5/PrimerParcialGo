@@ -1,8 +1,8 @@
 package unHilo
 
 import (
-	"comparativosConcurrencia/gestorArchivos"
 	"fmt"
+	"github.com/jcgr5/PrimerParcialGo/gestorArchivos"
 	"time"
 )
 

@@ -1,9 +1,9 @@
 package semaforos
 
 import (
-	"comparativosConcurrencia/calculadora"
-	"comparativosConcurrencia/gestorArchivos"
 	"fmt"
+	"github.com/jcgr5/PrimerParcialGo/calculadora"
+	"github.com/jcgr5/PrimerParcialGo/gestorArchivos"
 	"sync"
 	"time"
 )
